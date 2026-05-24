@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Scripts específicos
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.bash text eol=lf
+*.bat text eol=crlf
+
+# Configuración
+*.ini text
+*.conf text
+*.cfg text
+
+# Documentación
+*.md text
+*.txt text
+
+# Logs (binarios)
+*.log binary
+*.pcap binary
+*.zip binary
